@@ -4,9 +4,8 @@ on: [workflow_dispatch]
 
 jobs:
   ubuntu:
-    runs-on: ubuntu-latest
-    container: ubuntu:latest
+    runs-on: self-hosted
     steps:
       - uses: actions/checkout@v1
       - name: Install required packages
-        run: apt-get update && apt-get install -y git sudo
+        run: apt-get update && apt-get install -y openjdk-11-jdk
