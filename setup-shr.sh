@@ -11,5 +11,8 @@ tar xzf ./actions-runner-linux-x64-2.317.0.tar.gz
 ./config.sh --url https://github.com/melanmeg/sample-self-hosted-runner --token xxxxxxxxxxxxxxxxxxxxxxx
 ./run.sh
 
+# Run (Listening)
+./run.sh
+
 # Using your self-hosted runner
 # runs-on: self-hosted
